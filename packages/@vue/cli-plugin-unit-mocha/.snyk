@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - mochapack > lodash:
+        patched: '2020-04-30T21:44:17.029Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2020-04-30T21:44:17.029Z'
+    - '@vue/cli-shared-utils > request-promise-native > request-promise-core > lodash':
+        patched: '2020-04-30T21:44:17.029Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-04-30T21:44:17.029Z'
