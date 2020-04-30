@@ -25,12 +25,18 @@
   "dependencies": {
     "@vue/cli-shared-utils": "^4.0.0-rc.1",
     "webpack": "^4.0.0",
-    "workbox-webpack-plugin": "^4.3.1"
+    "workbox-webpack-plugin": "^4.3.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "register-service-worker": "^1.6.2"
   },
   "peerDependencies": {
     "@vue/cli-service": "^3.0.0 || ^4.0.0-0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
