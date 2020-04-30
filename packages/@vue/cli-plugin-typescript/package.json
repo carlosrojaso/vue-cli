@@ -30,7 +30,8 @@
     "ts-loader": "^6.0.1",
     "tslint": "^5.16.0",
     "webpack": "^4.0.0",
-    "yorkie": "^2.0.0"
+    "yorkie": "^2.0.0",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "@vue/cli-service": "^3.0.0 || ^4.0.0-0",
@@ -43,5 +44,10 @@
     "typescript": "^3.4.5",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
