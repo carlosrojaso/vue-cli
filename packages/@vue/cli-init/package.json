@@ -23,6 +23,12 @@
   "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-init#readme",
   "dependencies": {
     "execa": "^1.0.0",
-    "vue-cli": "^2.9.2"
-  }
+    "vue-cli": "^2.9.2",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
