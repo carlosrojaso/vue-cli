@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lowdb > lodash:
+        patched: '2020-05-01T04:31:34.740Z'
+    - portfinder > async > lodash:
+        patched: '2020-05-01T04:31:34.740Z'
+    - '@vue/cli-shared-utils > request-promise-native > request-promise-core > lodash':
+        patched: '2020-05-01T04:31:34.740Z'
