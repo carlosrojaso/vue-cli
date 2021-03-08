@@ -42,7 +42,7 @@
     "express-history-api-fallback": "^2.2.1",
     "fkill": "^6.1.0",
     "fs-extra": "^7.0.1",
-    "globby": "^9.2.0",
+    "globby": "^10.0.0",
     "graphql": "^14.3.1",
     "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.9.2",
@@ -61,7 +61,7 @@
     "semver": "^6.1.0",
     "shortid": "^2.2.11",
     "typescript": "^3.4.5",
-    "vue-cli-plugin-apollo": "^0.20.0",
+    "vue-cli-plugin-apollo": "^0.22.0",
     "watch": "^1.0.2"
   },
   "devDependencies": {
