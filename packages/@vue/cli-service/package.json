@@ -60,7 +60,7 @@
     "lodash.transform": "^4.6.0",
     "mini-css-extract-plugin": "^0.8.0",
     "minimist": "^1.2.0",
-    "ora": "^3.4.0",
+    "ora": "^6.0.0",
     "portfinder": "^1.0.20",
     "postcss-loader": "^3.0.0",
     "read-pkg": "^5.1.1",
@@ -76,7 +76,7 @@
     "webpack": "^4.0.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-chain": "^6.0.0",
-    "webpack-dev-server": "^3.4.1",
+    "webpack-dev-server": "^4.0.0",
     "webpack-merge": "^4.2.1"
   },
   "peerDependencies": {
