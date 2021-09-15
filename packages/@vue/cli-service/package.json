@@ -40,7 +40,7 @@
     "chalk": "^2.4.2",
     "cli-highlight": "^2.1.1",
     "clipboardy": "^2.0.0",
-    "cliui": "^5.0.0",
+    "cliui": "^6.0.0",
     "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^3.1.0",
     "cssnano": "^4.1.10",
@@ -76,7 +76,7 @@
     "webpack": "^4.0.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-chain": "^6.0.0",
-    "webpack-dev-server": "^3.4.1",
+    "webpack-dev-server": "^4.0.0",
     "webpack-merge": "^4.2.1"
   },
   "peerDependencies": {
