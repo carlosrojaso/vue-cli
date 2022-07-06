@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@vue/cli-shared-utils": "^4.0.0-rc.1",
-    "@vue/cli-ui": "^4.0.0-rc.1",
+    "@vue/cli-ui": "^5.0.7",
     "@vue/cli-ui-addon-webpack": "^4.0.0-rc.1",
     "@vue/cli-ui-addon-widgets": "^4.0.0-rc.1",
     "chalk": "^2.4.1",
