@@ -24,9 +24,9 @@
   },
   "dependencies": {
     "@vue/cli-shared-utils": "^4.0.0-rc.1",
-    "eslint-loader": "^2.1.2",
+    "eslint-loader": "^4.0.0",
     "globby": "^9.2.0",
-    "webpack": "^4.0.0",
+    "webpack": "^5.0.0",
     "yorkie": "^2.0.0"
   },
   "peerDependencies": {
